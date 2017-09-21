@@ -1,0 +1,276 @@
+nav {
+    color: #fff;
+    background-color: #212121;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+#header .parallax-container {
+    height: 400px;
+    background: rgba(27, 31, 43, 0.6);
+}
+#banner {
+	margin-top: 150px;
+}
+#banner h1, #banner h2 {
+    text-transform: uppercase;
+    color: #fff;
+}
+#banner h1 {
+	font-size: 40px;
+	font-weight: 900;
+}
+#banner h2 {
+	font-size: 20px;
+	font-weight: lighter;
+	line-height: 30px;
+}
+#services {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#services .item_service {
+  height: 580px;
+  border: 1px solid #eee;
+  padding: 2%;
+}
+#services h1 {
+	font-size: 40px;
+	color: #797979;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#services p {
+	font-size: 16px;
+	line-height: 30px;
+	color: #4B4B4B;
+}
+#services i {
+    color: #03a9f4;
+}
+#services h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+	line-height: 30px;
+  color: #666;
+}
+#projects {
+  padding: 3% 0;
+  width: 100%;
+  background-color: #eee;
+}
+#projects h1 {
+	font-size: 40px;
+	color: #797979;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+#projects .row .col {
+  padding: 0 0rem;
+}
+#projects .row {
+  margin-bottom: 0px;
+}
+#projects .item {
+  height: 250px;
+  position: relative;
+}
+#projects .item img {
+  width: 100%;
+  min-height: 250px;
+  height: 250px;
+}
+#projects .item a.item_project span {
+  position: absolute;
+  font-size: 1em;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  text-align: left;
+  z-index: 1;
+  color: #fff;
+  padding-top: 25%;
+  padding-left: 5%;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  /* internet explorer */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+  /*IE8*/
+  background: rgba(27, 31, 43, 0.6);
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+#projects .item a.item_project span i {
+  font-size: 2.7em;
+  color: #fff;
+  vertical-align: top;
+  margin: 0% 40%;
+}
+#projects .item a.item_project span p {
+  font-size: .9em !important;
+  position: relative;
+  z-index: 100;
+  color: #fff;
+  vertical-align: top;
+  width: 100% !important;
+  padding: 1% !important;
+  font-weight: bold;
+  text-align: left !important;
+}
+#projects .item a.item_project span ul li {
+  margin: 2% auto !important;
+}
+#projects .item a.item_project:hover > span {
+  opacity: 1;
+  padding-top: 1%;
+  filter: alpha(opacity=99);
+  /* internet explorer */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+  /*IE8*/
+}
+#bible .parallax-container {
+	height: 200px;
+    background: rgba(27, 31, 43, 0.6);
+}
+#bible p {
+	font-size: 18px;
+	line-height: 30px;
+	color: #fff;
+	margin-top: 70px;
+	font-style: italic;
+}
+#contact {
+	background: #f8f8f8;
+}
+#contact > .row {
+	margin-bottom: 0px;
+}
+#contact .form-container {
+	background: #fff;
+	border-left: 1px solid #ddd;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+#contact .information {
+	padding-top: 50px;
+}
+#contact .information h1 {
+	color: #797979;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 26px;
+}
+#contact .information .btn-floating {
+    background: #fff;
+    margin-right: 15px;
+}
+#contact .information .btn-floating i {
+    color: #03a9f4;
+}
+#contact .information li {
+    line-height: 60px;
+}
+#contact .information {
+	padding-top: 50px;
+}
+.btn, .btn-large {
+    background-color: #03a9f4;
+}
+input.valid:not([type]), input.valid:focus:not([type]), input.valid[type="text"], input.valid[type="text"]:focus, input.valid[type="password"], input.valid[type="password"]:focus, input.valid[type="email"], input.valid[type="email"]:focus, input.valid[type="url"], input.valid[type="url"]:focus, input.valid[type="time"], input.valid[type="time"]:focus, input.valid[type="date"], input.valid[type="date"]:focus, input.valid[type="datetime"], input.valid[type="datetime"]:focus, input.valid[type="datetime-local"], input.valid[type="datetime-local"]:focus, input.valid[type="tel"], input.valid[type="tel"]:focus, input.valid[type="number"], input.valid[type="number"]:focus, input.valid[type="search"], input.valid[type="search"]:focus, textarea.materialize-textarea.valid, textarea.materialize-textarea.valid:focus {
+    border-bottom: 1px solid #03a9f4;
+    box-shadow: 0 1px 0 0 #03a9f4;
+}
+input:focus:not([type]):not([readonly]), input[type="text"]:focus:not([readonly]), input[type="password"]:focus:not([readonly]), input[type="email"]:focus:not([readonly]), input[type="url"]:focus:not([readonly]), input[type="time"]:focus:not([readonly]), input[type="date"]:focus:not([readonly]), input[type="datetime"]:focus:not([readonly]), input[type="datetime-local"]:focus:not([readonly]), input[type="tel"]:focus:not([readonly]), input[type="number"]:focus:not([readonly]), input[type="search"]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #03a9f4;
+    box-shadow: 0 1px 0 0 #03a9f4;
+}
+input.valid:not([type]) + label::after, input.valid:focus:not([type]) + label::after, input.valid[type="text"] + label::after, input.valid[type="text"]:focus + label::after, input.valid[type="password"] + label::after, input.valid[type="password"]:focus + label::after, input.valid[type="email"] + label::after, input.valid[type="email"]:focus + label::after, input.valid[type="url"] + label::after, input.valid[type="url"]:focus + label::after, input.valid[type="time"] + label::after, input.valid[type="time"]:focus + label::after, input.valid[type="date"] + label::after, input.valid[type="date"]:focus + label::after, input.valid[type="datetime"] + label::after, input.valid[type="datetime"]:focus + label::after, input.valid[type="datetime-local"] + label::after, input.valid[type="datetime-local"]:focus + label::after, input.valid[type="tel"] + label::after, input.valid[type="tel"]:focus + label::after, input.valid[type="number"] + label::after, input.valid[type="number"]:focus + label::after, input.valid[type="search"] + label::after, input.valid[type="search"]:focus + label::after, textarea.materialize-textarea.valid + label::after, textarea.materialize-textarea.valid:focus + label::after {
+    content: attr(data-success);
+    color: #03a9f4;
+    opacity: 1;
+}
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:focus:not([readonly]) + label,
+input[type=password]:focus:not([readonly]) + label,
+input[type=email]:focus:not([readonly]) + label,
+input[type=url]:focus:not([readonly]) + label,
+input[type=time]:focus:not([readonly]) + label,
+input[type=date]:focus:not([readonly]) + label,
+input[type=datetime]:focus:not([readonly]) + label,
+input[type=datetime-local]:focus:not([readonly]) + label,
+input[type=tel]:focus:not([readonly]) + label,
+input[type=number]:focus:not([readonly]) + label,
+input[type=search]:focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  	color: #03a9f4;
+}
+
+footer.page-footer {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: #4d4d4d;
+}
+footer.page-footer .btn-floating {
+	margin-left: 25px;
+    background-color: #fff;
+}
+footer.page-footer .btn-floating i {
+	color: #4d4d4d;
+}
+.alert {
+    padding: 20px;
+}
+@media (max-width: 600px) { 
+	.container {
+		min-width: 80%;
+	}
+	#banner {
+	    margin-top: 100px;
+	}
+	#banner h1 {
+		font-size: 30px;
+	}
+	#banner h2 {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	#bible p {
+	    font-size: 18px;
+	    line-height: 30px;
+	    color: #fff;
+	    margin-top: 20px;
+	    font-style: italic;
+	}
+  #services .item_service {
+    height: 450px;
+  }
+}
+@media (min-width: 601px) and (max-width: 992px) { 
+	.container {
+		min-width: 85%;
+	}
+	#banner {
+	    margin-top: 80px;
+	}
+	#bible p {
+	    font-size: 18px;
+	    line-height: 30px;
+	    color: #fff;
+	    margin-top: 50px;
+	    font-style: italic;
+	}
+  #services .item_service {
+    height: 480px;
+  }
+}
+@media (min-width: 993px) { 
+	.container {
+		min-width: 90%;
+	}
+}
